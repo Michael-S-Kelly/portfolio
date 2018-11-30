@@ -92,7 +92,8 @@ br.clear {
 
     .image.avatar48 img {
       width: 48px;
-      height: 48px;
+      height: 40px;
+      transform: rotate(90deg);
     }
 
   .image.fit {
@@ -120,3 +121,19 @@ br.clear {
       margin: 0 auto;
       width: auto;
     }
+
+.item {
+  box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+
+.item header {
+  background: #fff;
+  margin: 0;
+  padding: 1em 0 1em 0;
+  font-size: 0.8em;
+}
+
+.item header h3 {
+  font-size: 1em;
+}
